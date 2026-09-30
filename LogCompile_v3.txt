@@ -1,0 +1,350 @@
+Initialized native services in: C:\Users\PC\.gradle\native
+Initialized jansi services in: C:\Users\PC\.gradle\native
+Found daemon DaemonInfo{pid=19740, address=[6b537ccb-77bf-48fc-8720-937c92366b85 port:58853, addresses:[/127.0.0.1]], state=Idle, lastBusy=1766809814606, context=DefaultDaemonContext[uid=84d6803e-47e7-4406-928e-245947e2a386,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\PC\.gradle\daemon,pid=19740,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2g,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+At least one daemon option is different.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-17 (no JDK specified, using current Java home), daemonOpts=[-Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=84d6803e-47e7-4406-928e-245947e2a386,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\PC\.gradle\daemon,pid=19740,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2g,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 18664). The daemon log file: C:\Users\PC\.gradle\daemon\9.2.1\daemon-18664.out.log
+Starting 13th build in daemon [uptime: 9 mins 39.151 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 12 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Now considering [C:\Users\PC\Desktop\programi\dug] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\PC\Desktop\programi\dug\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\Users\PC\Desktop\programi\dug\build.gradle.kts'.
+Included projects: [root project 'DebtTracker', project ':app']
+
+> Configure project :
+Evaluating root project 'DebtTracker' using build file 'C:\Users\PC\Desktop\programi\dug\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.7.2', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.20', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\PC\Desktop\programi\dug\app\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application']
+Resolved plugin [id: 'org.jetbrains.kotlin.android']
+Using default execution profile
+Build e7fb23c5-bc42-4d87-8bd0-372690b4874c is started
+Using Kotlin Gradle Plugin gradle813 variant
+All projects evaluated.
+Task name matched 'assembleDebug'
+Selected primary task 'assembleDebug' from project :
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:checkDebugAarMetadata', task ':app:generateDebugResValues', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:compressDebugAssets', task ':app:desugarDebugFileDependencies', task ':app:dexBuilderDebug', task ':app:mergeDebugGlobalSynthetics', task ':app:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:mergeExtDexDebug', task ':app:mergeLibDexDebug', task ':app:mergeProjectDexDebug', task ':app:mergeDebugJniLibFolders', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug']
+Tasks that were excluded: []
+Resolve mutations for :app:preBuild (Thread[Execution worker,5,main]) started.
+:app:preBuild (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[Execution worker Thread 6,5,main]) started.
+:app:preDebugBuild (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 4,5,main]) started.
+:app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 4,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':app:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[Execution worker Thread 4,5,main]) started.
+:app:checkDebugAarMetadata (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:generateDebugResValues (Thread[Execution worker Thread 4,5,main]) started.
+:app:generateDebugResValues (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[Execution worker Thread 4,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:generateDebugResources (Thread[Execution worker Thread 4,5,main]) started.
+:app:generateDebugResources (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[Execution worker Thread 11,5,main]) started.
+:app:mergeDebugResources (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[Execution worker Thread 11,5,main]) started.
+:app:packageDebugResources (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[Execution worker Thread 11,5,main]) started.
+:app:parseDebugLocalResources (Thread[Execution worker,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[Execution worker,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[Execution worker,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[Execution worker,5,main]) started.
+:app:extractDeepLinksDebug (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[Execution worker Thread 8,5,main]) started.
+:app:processDebugMainManifest (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[Execution worker Thread 8,5,main]) started.
+:app:processDebugManifest (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[Execution worker Thread 8,5,main]) started.
+:app:processDebugManifestForPackage (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :app:processDebugResources (Thread[Execution worker Thread 8,5,main]) started.
+:app:processDebugResources (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :app:compileDebugKotlin (Thread[Execution worker Thread 8,5,main]) started.
+:app:compileDebugKotlin (Thread[Execution worker Thread 8,5,main]) started.
+Resolve mutations for :app:javaPreCompileDebug (Thread[included builds,5,main]) started.
+:app:javaPreCompileDebug (Thread[included builds,5,main]) started.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :app:mergeDebugShaders (Thread[included builds,5,main]) started.
+:app:mergeDebugShaders (Thread[included builds,5,main]) started.
+
+> Task :app:mergeDebugShaders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugShaders' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugShaders' as it is up-to-date.
+Resolve mutations for :app:compileDebugShaders (Thread[included builds,5,main]) started.
+:app:compileDebugShaders (Thread[included builds,5,main]) started.
+
+> Task :app:compileDebugShaders NO-SOURCE
+Skipping task ':app:compileDebugShaders' as it has no source files and no previous output files.
+Resolve mutations for :app:generateDebugAssets (Thread[included builds,5,main]) started.
+:app:generateDebugAssets (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :app:generateDebugAssets UP-TO-DATE
+Skipping task ':app:generateDebugAssets' as it has no actions.
+Resolve mutations for :app:mergeDebugAssets (Thread[Execution worker Thread 6,5,main]) started.
+:app:mergeDebugAssets (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :app:mergeDebugAssets UP-TO-DATE
+Caching disabled for task ':app:mergeDebugAssets' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugAssets' as it is up-to-date.
+Resolve mutations for :app:compressDebugAssets (Thread[Execution worker Thread 6,5,main]) started.
+:app:compressDebugAssets (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :app:compressDebugAssets UP-TO-DATE
+Caching disabled for task ':app:compressDebugAssets' because:
+  Build cache is disabled
+Skipping task ':app:compressDebugAssets' as it is up-to-date.
+Resolve mutations for :app:desugarDebugFileDependencies (Thread[Execution worker Thread 6,5,main]) started.
+:app:desugarDebugFileDependencies (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+Caching disabled for task ':app:desugarDebugFileDependencies' because:
+  Build cache is disabled
+Skipping task ':app:desugarDebugFileDependencies' as it is up-to-date.
+Resolve mutations for :app:checkDebugDuplicateClasses (Thread[Execution worker Thread 6,5,main]) started.
+:app:checkDebugDuplicateClasses (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+Caching disabled for task ':app:checkDebugDuplicateClasses' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugDuplicateClasses' as it is up-to-date.
+Resolve mutations for :app:mergeExtDexDebug (Thread[Execution worker Thread 6,5,main]) started.
+:app:mergeExtDexDebug (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :app:mergeExtDexDebug UP-TO-DATE
+Caching disabled for task ':app:mergeExtDexDebug' because:
+  Build cache is disabled
+Skipping task ':app:mergeExtDexDebug' as it is up-to-date.
+Resolve mutations for :app:mergeLibDexDebug (Thread[Execution worker Thread 6,5,main]) started.
+:app:mergeLibDexDebug (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :app:mergeLibDexDebug UP-TO-DATE
+Caching disabled for task ':app:mergeLibDexDebug' because:
+  Build cache is disabled
+Skipping task ':app:mergeLibDexDebug' as it is up-to-date.
+Resolve mutations for :app:mergeDebugJniLibFolders (Thread[Execution worker Thread 6,5,main]) started.
+:app:mergeDebugJniLibFolders (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugJniLibFolders' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugJniLibFolders' as it is up-to-date.
+Resolve mutations for :app:mergeDebugNativeLibs (Thread[Execution worker Thread 3,5,main]) started.
+:app:mergeDebugNativeLibs (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+Skipping task ':app:mergeDebugNativeLibs' as it has no source files and no previous output files.
+Resolve mutations for :app:stripDebugDebugSymbols (Thread[Execution worker Thread 3,5,main]) started.
+:app:stripDebugDebugSymbols (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+Skipping task ':app:stripDebugDebugSymbols' as it has no source files and no previous output files.
+Resolve mutations for :app:validateSigningDebug (Thread[Execution worker Thread 3,5,main]) started.
+:app:validateSigningDebug (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :app:validateSigningDebug UP-TO-DATE
+Caching disabled for task ':app:validateSigningDebug' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:validateSigningDebug' as it is up-to-date.
+Resolve mutations for :app:writeDebugAppMetadata (Thread[Execution worker Thread 2,5,main]) started.
+:app:writeDebugAppMetadata (Thread[included builds,5,main]) started.
+
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+Caching disabled for task ':app:writeDebugAppMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:writeDebugAppMetadata' as it is up-to-date.
+Resolve mutations for :app:writeDebugSigningConfigVersions (Thread[included builds,5,main]) started.
+:app:writeDebugSigningConfigVersions (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+Caching disabled for task ':app:writeDebugSigningConfigVersions' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:writeDebugSigningConfigVersions' as it is up-to-date.
+
+> Task :app:compileDebugKotlin FAILED
+GradleBuildProject.Builder should not be accessed through AnalyticsConfiguratorService after AnalyticsService is created. Analytics information of this build might be incomplete.
+Caching disabled for task ':app:compileDebugKotlin' because:
+  Build cache is disabled
+Task ':app:compileDebugKotlin' is not up-to-date because:
+  Input property 'classpathSnapshotProperties.classpathSnapshot' file C:\Users\PC\.gradle\caches\9.2.1\transforms\18641775ec7d99c9f2a237137bc93d08\workspace\transformed\R_jar-snapshot.bin has been removed.
+  Input property 'classpathSnapshotProperties.classpathSnapshot' file C:\Users\PC\.gradle\caches\9.2.1\transforms\8e7d5090a86e66153a9e6cab1ecccaa5\workspace\transformed\R_jar-snapshot.bin has been added.
+  Input property 'sources' file C:\Users\PC\Desktop\programi\dug\app\src\main\java\com\example\debttracker\MainActivity.kt has changed.
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\java', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\java', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\main\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\main\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\main\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\java', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\java', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\java', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\main\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\main\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\main\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\java', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\java', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\java', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\main\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\main\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\main\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\java', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\java', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\java', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\main\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\main\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\main\kotlin', not found
+file or directory 'C:\Users\PC\Desktop\programi\dug\app\src\debug\java', not found
+Kotlin source files: C:\Users\PC\Desktop\programi\dug\app\src\main\java\com\example\debttracker\MainActivity.kt
+Java source files: 
+Script source files: 
+Script file extensions: 
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: null
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceChanges=org.jetbrains.kotlin.buildtools.api.SourcesChanges$Known@581a1248, classpathChanges=ToBeComputedByIncrementalCompiler, workingDir=C:\Users\PC\Desktop\programi\dug\app\build\kotlin\compileDebugKotlin\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\Users\PC\Desktop\programi\dug\app\build\kotlin\compileDebugKotlin\local-state\build-history.bin, useModuleDetection=true), icFeatures=IncrementalCompilationFeatures(usePreciseJavaTracking=true, withAbiSnapshot=false, preciseCompilationResultsBackup=true, keepIncrementalCompilationCachesInMemory=true, enableUnsafeIncrementalCompilationForMultiplatform=false, enableMonotonousIncrementalCompileSetExpansion=true), outputFiles=[C:\Users\PC\Desktop\programi\dug\app\build\tmp\kotlin-classes\debug, C:\Users\PC\Desktop\programi\dug\app\build\kotlin\compileDebugKotlin\cacheable, C:\Users\PC\Desktop\programi\dug\app\build\kotlin\compileDebugKotlin\local-state])
+e: file:///C:/Users/PC/Desktop/programi/dug/app/src/main/java/com/example/debttracker/MainActivity.kt:403:25 Unresolved reference 'SpannableStringBuilder'.
+e: file:///C:/Users/PC/Desktop/programi/dug/app/src/main/java/com/example/debttracker/MainActivity.kt:406:13 Unresolved reference 'StyleSpan'.
+e: file:///C:/Users/PC/Desktop/programi/dug/app/src/main/java/com/example/debttracker/MainActivity.kt:409:13 Unresolved reference 'Spanned'.
+e: file:///C:/Users/PC/Desktop/programi/dug/app/src/main/java/com/example/debttracker/MainActivity.kt:629:60 Unresolved reference 'SURFACE'.
+e: file:///C:/Users/PC/Desktop/programi/dug/app/src/main/java/com/example/debttracker/MainActivity.kt:636:9 Unresolved reference 'setDialogSize'.
+Finished executing kotlin compiler using DAEMON strategy
+Restoring task outputs to pre-compilation state
+Build e7fb23c5-bc42-4d87-8bd0-372690b4874c is closed
+
+[Incubating] Problems report is available at: file:///C:/Users/PC/Desktop/programi/dug/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 1s
+26 actionable tasks: 1 executed, 25 up-to-date
+Watched directory hierarchies: [C:\Users\PC\Desktop\programi\dug]
